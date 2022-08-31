@@ -1,5 +1,4 @@
 # Effect-of-Covid19-on-stock-data
 impact analysis of covid-19 on Stock Market using Python, MySQL(Azure Instance) and Mongodb.
 
-In this project, i used three large Kaggle datasets from the banking domain to automate bank activities and improve bank performance using machine learning methods. I have used KDD methodology in all three datasets, which involves target data selection, data cleaning, pre-processing, data transformation, Data mining, and
-model evaluation steps. The first dataset helps to predict the loan defaulter, which allows the bank to avoid providing loans to high-risk customers; I have used Random forest and KNN classification methods to this dataset. The second dataset analyses various factors affecting loan sanction amount and predicts the same using multiple linear regression and XGBoost regression. Finally, clustering is applied to the third dataset for customer segmentation on credit cardholders. 
+The stock dataset and covid19 were  programmatically retrieved from the polygon.io API, Covid19 API respectively. Five companies stock market data trend were  analysed.The retrieved data is in JSON format. I have used MongoDB to store the JSON data, The dataset is preprocessed into structured form  and inserted into Azure MySql instance by establishing a connection from python. Matplotlib and Seaborn libraries were used to analyse the trend.
